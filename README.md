@@ -1,11 +1,7 @@
-# GitDeo
-GitDeo parses codebases and hardware firmware folders using Gemini 2.5 Flash, generates localized time-synced scripts, and orchestrates an automated audio/video compilation pipeline via FFmpeg to create rapid promotional assets for developers.
-# GitDeo 🎥🤖
+# HackOnVibe — team project
 
-**GitDeo** is an automated media orchestration platform that bridges the gap between engineering and marketing. By analyzing your codebase files or direct firmware pastes, GitDeo deeply understands your project's logic and dynamically generates customized, short-form promotional videos.
+Your team's project repo. Push here → Cloudflare Pages CI/CD builds & deploys → it goes live on your team's address.
 
-## 🛠️ The Tech Stack
-- **Frontend:** Next.js (React) + Tailwind CSS
-- **Backend:** Python (FastAPI Engine)
-- **AI Orchestration:** Gemini 2.5 Flash API (Structured JSON Core)
-- **Media Compilation:** Localized FFmpeg processing matrix
+**Test the pipeline first:** edit `index.html` (a "Hello World" is enough), commit to `main` (or open a PR), and watch it appear on your live URL. That confirms the whole chain works.
+
+Then build your AI-assisted micro-product. Static site works out of the box; add a build step if you need one.
