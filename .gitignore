@@ -1,0 +1,21 @@
+# Next.js Build Cache and Dependencies
+gitdeo-frontend/.next/
+gitdeo-frontend/node_modules/
+gitdeo-frontend/out/
+gitdeo-frontend/build/
+
+# Python Virtual Environment and Packages
+gitdeo-backend/venv/
+gitdeo-backend/.venv/
+gitdeo-backend/__pycache__/
+gitdeo-backend/*.pyc
+
+# Local Environment Secret Keys (OAuth Secrets)
+.env
+.env.local
+.env.development.local
+.env.production.local
+
+# System Files
+.DS_Store
+Thumbs.db

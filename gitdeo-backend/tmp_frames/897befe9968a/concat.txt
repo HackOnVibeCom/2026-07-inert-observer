@@ -1,0 +1,11 @@
+file 'C:\Users\Daniel Iyanda\GitDeo-Fresh\gitdeo-backend\tmp_frames\897befe9968a\frame_000.png'
+duration 3
+file 'C:\Users\Daniel Iyanda\GitDeo-Fresh\gitdeo-backend\tmp_frames\897befe9968a\frame_001.png'
+duration 3
+file 'C:\Users\Daniel Iyanda\GitDeo-Fresh\gitdeo-backend\tmp_frames\897befe9968a\frame_002.png'
+duration 3
+file 'C:\Users\Daniel Iyanda\GitDeo-Fresh\gitdeo-backend\tmp_frames\897befe9968a\frame_003.png'
+duration 3
+file 'C:\Users\Daniel Iyanda\GitDeo-Fresh\gitdeo-backend\tmp_frames\897befe9968a\frame_004.png'
+duration 3
+file 'C:\Users\Daniel Iyanda\GitDeo-Fresh\gitdeo-backend\tmp_frames\897befe9968a\frame_004.png'
