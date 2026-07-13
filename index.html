@@ -33,32 +33,35 @@ ul.builds li{border:1px solid rgba(255,255,255,.14);background:rgba(19,9,34,.6);
 <ul class="builds">
   <li>
     <div class="bt"><span class="em">🟢</span>Plain website</div>
-    <p class="trig"><b>Trigger:</b> no build step (no <code>package.json</code>, or no <code>build</code> script). We serve your files as-is — your <code>index.html</code> shows up on <b>Cloudflare Pages</b>.</p>
+    <p class="trig"><b>Trigger:</b> no build step (no <code>package.json</code>, or no <code>build</code> script). We serve your files as-is — your <code>index.html</code> shows up <a href="/">on your page</a>.</p>
   </li>
   <li>
     <div class="bt"><span class="em">🟡</span>Built (static) app</div>
-    <p class="trig"><b>Trigger:</b> a static framework — React/Vite/Astro, or Next.js with <code>output: 'export'</code>. We run <code>npm run build</code> and publish the output (<code>dist</code>/<code>build</code>/<code>out</code>/…) to <b>Cloudflare Pages</b>.</p>
+    <p class="trig"><b>Trigger:</b> a static framework — React/Vite/Astro, or Next.js with <code>output: 'export'</code>. We run <code>npm run build</code> and publish the output (<code>dist</code>/<code>build</code>/<code>out</code>/…) <a href="/">on your page</a>.</p>
   </li>
   <li>
     <div class="bt"><span class="em">🔵</span>Server app (SSR)</div>
-    <p class="trig"><b>Trigger:</b> Next.js in SSR mode (has <code>next</code>, <b>no</b> <code>output: 'export'</code>) — it needs a live Node runtime. We build and run it in an isolated <b>Docker container</b> behind a tunnel.</p>
+    <p class="trig"><b>Trigger:</b> Next.js in SSR mode (has <code>next</code>, <b>no</b> <code>output: 'export'</code>) — it needs a live Node runtime. We build and run it in an isolated <b>Docker container</b> behind a tunnel. Add your API keys at <a href="https://hackonvibe.com/me">HackOnVibe.com/me</a>.</p>
   </li>
   <li>
     <div class="bt"><span class="em">🟠</span>Node backend</div>
-    <p class="trig"><b>Trigger:</b> a non-Next Node server — a server dependency (<code>express</code>/<code>fastify</code>/…) or a <code>server</code>/<code>start</code> script that runs <code>node</code>. We host it in a <b>Docker container</b> same-origin: your frontend + your API on one domain (<code>/api</code> is proxied to your server). Need secrets? Add them in your cabinet at <a href="https://hackonvibe.com/me">hackonvibe.com/me</a>.</p>
+    <p class="trig"><b>Trigger:</b> a non-Next Node server — a server dependency (<code>express</code>/<code>fastify</code>/…) or a <code>server</code>/<code>start</code> script that runs <code>node</code>. We host it in a <b>Docker container</b> same-origin: your frontend + your API on one domain (<code>/api</code> is proxied to your server). Add your API keys at <a href="https://hackonvibe.com/me">HackOnVibe.com/me</a>.</p>
   </li>
 </ul>
 
 <div class="note info">
-  <p class="nt">🧩 Using a different stack?</p>
-  <p style="margin:0">If your build isn't one of the four above (a different language, runtime, or setup), we'll still host you — but two steps first: <b>(1)</b> push the exact build you plan to use to GitHub (so we can see it), then <b>(2)</b> tell the organizers on Discord. We'll try to put together a suitable Docker container for you.</p>
+  <p class="nt">🧩 Got a different build?</p>
+  <ol style="margin:0;padding-left:1.3rem">
+    <li>Upload it to your GitHub.</li>
+    <li>Tell the organizers: <a href="https://discord.gg/tU6NqSaS8">discord.gg/tU6NqSaS8</a></li>
+  </ol>
 </div>
 
 <div class="note warn">
   <p class="nt">⚠️ Don't delete these — the build needs them</p>
-  <p style="margin:0">Keep <code>.github/workflows/deploy.yml</code> (our deploy pipeline — it's what puts your site live) and, if your app has one, <code>package.json</code>. Removing them breaks auto-deploy, and your subdomain won't update.</p>
+  <p style="margin:0">Keep <code>.github/workflows/deploy.yml</code> (your deploy pipeline — it's what puts your site live) and, if your app has one, <code>package.json</code>. Removing them breaks auto-deploy, and your subdomain won't update.</p>
 </div>
 
-<p class="foot">⏱️ After you push to <code>main</code>, your site goes live in about <b>2–5 minutes</b>. Still not live after 5? Something went wrong — tell the organizers on Discord so we can help. · Automating your Git pushes with AI: <a href="https://docs.github.com/en/github-cli/github-cli/quickstart">gh CLI quickstart</a>.</p>
+<p class="foot">⏱️ After you push to <code>main</code>, your site goes live in about <b>2–5 minutes</b>. Still not live after 5? Something went wrong — tell the organizers on Discord so we can help.</p>
 </main></body>
 </html>
